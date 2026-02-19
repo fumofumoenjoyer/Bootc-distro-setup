@@ -1,2 +1,3 @@
 # Bootc-distro-setup
-My setup for bootc distros
+
+Modify the distrobox with your architecture (this one uses v4)
