@@ -57,6 +57,7 @@ echo "Exporting applications to host..."
 distrobox-export --app antigravity
 distrobox-export --app steam
 distrobox-export --app lsfg-vk-ui
+distrobox-export --app goverlay
 
 EOF
 
