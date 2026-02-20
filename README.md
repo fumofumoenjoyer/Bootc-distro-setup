@@ -1,6 +1,8 @@
 # Bootc-distro-setup
 
 Modify the distrobox with your architecture (this one uses v4)
+
+### Gaming
 ```
 distrobox create --name "gaming" --image "docker.io/cachyos/cachyos-v4:latest" --nvidia --hostname "${HOSTNAME}" --additional-flags "--volume /run/user/$(id -u)/bus:/run/user/$(id -u)/bus:z --device /dev/dri:/dev/dri"
 ```
@@ -15,6 +17,7 @@ distrobox-export --app goverlay
 distrobox-export --app heroic
 distrobox-export --app bottles
 ```
+### Dev
 ```
 distrobox create --name "dev" --image "docker.io/cachyos/cachyos-v4:latest" --init --nvidia --hostname "${HOSTNAME}" --additional-flags "--volume /run/user/$(id -u)/bus:/run/user/$(id -u)/bus:z --device /dev/dri:/dev/dri"
 ```
