@@ -45,7 +45,7 @@ distrobox enter "${CONTAINER_NAME}" -- <<EOF
 echo "Installing packages..."
 sudo pacman -Sy --noconfirm archlinux-keyring
 sudo pacman -Syyu --noconfirm --needed base-devel git yay
-yay -Syu --noconfirm npm zsh bash spyder github-cli typescript eslint helm python-pip gdb gcc make libappindicator lib32-libappindicator bottles maven jdk-openjdk kotlin clang llvm lld lldb libc++ cython libclc polly rustup antigravity gemini-cli google-chrome cachyos-gaming-applications cachyos-gaming-meta lsfg-vk-bin
+yay -Syu --noconfirm npm zsh bash spyder github-cli typescript eslint helm python-pip gdb libdisplay-info lib32-libdisplay-info gcc make libappindicator lib32-libappindicator bottles maven jdk-openjdk kotlin clang llvm lld lldb libc++ cython libclc polly rustup antigravity gemini-cli google-chrome cachyos-gaming-applications cachyos-gaming-meta lsfg-vk-bin
 rustup update
 rustup default stable
 rustup target add wasm32-unknown-unknown
