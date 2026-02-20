@@ -31,7 +31,7 @@ else
     # We add --init to enable systemd inside the container, which is good practice.
     # We also add --nvidia for automatic NVIDIA GPU integration. If you have an AMD or Intel GPU,
     # this flag will be safely ignored.
-    distrobox create --name "${CONTAINER_NAME}" --image "${CONTAINER_IMAGE}" --init --nvidia
+    distrobox create --name "${CONTAINER_NAME}" --image "${CONTAINER_IMAGE}" --init --nvidia --dbus --hostname "${HOSTNAME}"
     echo "Container created successfully."
 fi
 
