@@ -31,7 +31,7 @@ else
     # We add --init to enable systemd inside the container, which is good practice.
     # We also add --nvidia for automatic NVIDIA GPU integration. If you have an AMD or Intel GPU,
     # this flag will be safely ignored.
-    distrobox create --name "${CONTAINER_NAME}" --image "${CONTAINER_IMAGE}" --init --nvidia --hostname "${HOSTNAME}" --additional-flags "--volume /run/user/$(id -u)/bus:/run/user/$(id -u)/bus:z --device /dev/dri:/dev/dri"
+    distrobox create --name "${CONTAINER_NAME}" --image "${CONTAINER_IMAGE}" --nvidia --hostname "${HOSTNAME}" --additional-flags "--volume /run/user/$(id -u)/bus:/run/user/$(id -u)/bus:z --device /dev/dri:/dev/dri"
     echo "Container created successfully."
 fi
 
@@ -68,3 +68,7 @@ echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
 echo "Applications installed and exported."
 echo ""
 echo "Setup complete!"
+
+
+
+
