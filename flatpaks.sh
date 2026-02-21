@@ -2,22 +2,23 @@
 
 cd
 
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.brave.Browser
-flatpak install flathub com.heroicgameslauncher.hgl
-flatpak install flathub net.retrodeck.retrodeck
-flatpak install flathub org.qbittorrent.qBittorrent
-flatpak install flathub org.onlyoffice.desktopeditors
-flatpak install flathub com.obsproject.Studio
-flatpak install flathub org.vinegarhq.Sober
-flatpak install flathub com.protonvpn.www
-flatpak install flathub io.podman_desktop.PodmanDesktop
-flatpak install flathub io.mpv.Mpv
-flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.discordapp.Discord --noninteractive
+flatpak install flathub com.brave.Browser --noninteractive
+flatpak install flathub com.heroicgameslauncher.hgl --noninteractive
+flatpak install flathub org.qbittorrent.qBittorrent --noninteractive
+flatpak install flathub org.onlyoffice.desktopeditors --noninteractive
+flatpak install flathub com.obsproject.Studio --noninteractive
+flatpak install flathub org.vinegarhq.Sober --noninteractive
+flatpak install flathub com.protonvpn.www --noninteractive
+flatpak install flathub io.podman_desktop.PodmanDesktop --noninteractive
+flatpak install flathub io.mpv.Mpv --noninteractive
+flatpak install flathub com.github.tchx84.Flatseal --noninteractive
+flatpak install flathub com.usebottles.bottles --noninteractive
+flatpak install flathub com.valvesoftware.Steam --noninteractive
+flatpak install flathub com.vysp3r.ProtonPlus --noninteractive
 
 flatpak config --user --set languages "en;ja"
 flatpak config --set languages "en;ja"
 flatpak update
 
-flatpak run io.podman_desktop.PodmanDesktop
+
