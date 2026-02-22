@@ -7,7 +7,7 @@ distrobox create --name "gaming" --image "docker.io/cachyos/cachyos-v4:latest" -
 ```
 ```
 sudo pacman -Syu yay
-yay -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts otf-ipafont ttf-hack-nerd ttf-jetbrains-mono-nerd libdisplay-info lib32-libdisplay-info libappindicator lib32-libappindicator libappindicator-gtk3 lib32-libappindicator-gtk3 libdbusmenu-gtk3 lib32-libdbusmenu-gtk3 bottles lsfg-vk-bin cachyos-gaming-applications cachyos-gaming-meta
+yay -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts otf-ipafont ttf-hack-nerd ttf-jetbrains-mono-nerd libdisplay-info lib32-libdisplay-info libappindicator lib32-libappindicator libappindicator-gtk3 lib32-libappindicator-gtk3 libdbusmenu-gtk3 lib32-libdbusmenu-gtk3 bottles lsfg-vk-bin cachyos-gaming-applications cachyos-gaming-meta vulkan-tools
 ```
 ```
 distrobox-export --bin steam
