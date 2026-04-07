@@ -62,7 +62,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- "robbyrussell" is the default.
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="dpoggi"
 
 # List of plugins that have been enabled.
 # Add custom plugins on this line.
